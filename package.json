@@ -1,0 +1,22 @@
+{
+  "name": "bot-codex",
+  "version": "0.1.0",
+  "description": "LLM-friendly worldbuilding archive site template for chatbot creators",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "vitepress",
+    "chatbot",
+    "worldbuilding",
+    "template"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.26"
+  }
+}
