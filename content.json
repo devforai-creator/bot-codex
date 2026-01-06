@@ -1,0 +1,68 @@
+{
+  "bot": {
+    "name": "Chronicles",
+    "tagline": "Where legends are forged...",
+    "description": "An ancient tale awaits your discovery. Step into a world of mystery and wonder.",
+    "genre": ["Fantasy", "Adventure"],
+    "playLink": "https://genit.ai/play/your-bot-id"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#d4af37",
+      "secondary": "#8b4513",
+      "accent": "#4a1c6b",
+      "background": "#0f0d15",
+      "surface": "#1a1520",
+      "text": "#e8e4d9",
+      "textMuted": "#9a9488",
+      "glow": "rgba(212, 175, 55, 0.4)"
+    },
+    "fonts": {
+      "display": "Cinzel",
+      "body": "Noto Serif KR"
+    },
+    "decorations": {
+      "ornament": "⚜",
+      "divider": "◆",
+      "bullet": "◇",
+      "cornerStyle": "flourish",
+      "lineStyle": "gradient"
+    },
+    "effects": {
+      "vignette": true,
+      "scanlines": false,
+      "noise": false,
+      "sparkle": true,
+      "glow": true,
+      "glowIntensity": 0.6
+    },
+    "mood": "Mysterious and elegant"
+  },
+  "world": {
+    "name": "The Forgotten Realm",
+    "era": "Age of Twilight",
+    "description": "A world where magic fades and ancient secrets await rediscovery.",
+    "locations": [],
+    "factions": [],
+    "timeline": []
+  },
+  "characters": [
+    {
+      "id": "guide",
+      "name": "The Wanderer",
+      "role": "main",
+      "title": "Keeper of Stories",
+      "appearance": "Cloaked figure with knowing eyes",
+      "personality": "Mysterious yet welcoming",
+      "background": "A traveler who collects tales from across the realm.",
+      "quote": "Every story deserves to be told..."
+    }
+  ],
+  "episodes": [],
+  "meta": {
+    "warnings": [],
+    "credits": "Created with Bot-Codex",
+    "version": "1.0",
+    "lastUpdated": "2025-01-07"
+  }
+}
