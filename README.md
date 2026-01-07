@@ -18,7 +18,23 @@ AI에게 세계관을 설명하면, 바로 사용할 수 있는 사이트가 완
 
 ## Quick Start
 
-### 1. Use this template
+두 가지 방법 중 선택하세요:
+
+### Option A: 원클릭 배포 (비개발자 추천)
+
+코딩 없이 바로 시작하고 싶다면:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/devforai-creator/bot-codex)
+
+1. 위 버튼 클릭 → GitHub 연동 → 자동 배포
+2. 배포 완료 후, 생성된 GitHub repo에서 `content.json` 수정
+3. 저장(commit)하면 자동으로 사이트 업데이트
+
+> **참고:** 배포 후 사이트가 안 열리면 Vercel Dashboard → Settings → Deployment Protection이 꺼져 있는지 확인하세요.
+
+### Option B: 로컬 개발 (개발자용)
+
+미리보기하면서 작업하고 싶다면:
 
 ```bash
 # Clone
@@ -28,25 +44,20 @@ cd bot-codex
 # Install
 npm install
 
-# Create your content
-cp content.example.json content.json
-
 # Run
 npm run dev
 ```
 
-### 2. Generate content with AI
+로컬에서 `content.json` 수정 → 미리보기 확인 → 완성되면 배포
 
-1. `SPEC.md` 파일을 열어서 내용을 복사
+### content.json 만들기
+
+1. [SPEC.md](./SPEC.md) 파일 내용을 복사
 2. ChatGPT/Claude/Gemini에게 붙여넣기
 3. 당신의 세계관/캐릭터 설정을 함께 전달
 4. "이 spec에 맞춰서 content.json을 만들어줘"라고 요청
 5. 생성된 JSON을 `content.json`에 붙여넣기
 6. 끝!
-
-### 3. Deploy
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/devforai-creator/bot-codex)
 
 ---
 
@@ -133,7 +144,7 @@ npm run preview  # 빌드 미리보기
 
 ```
 bot-codex/
-├── content.json         ← 당신의 콘텐츠 (gitignore)
+├── content.json         ← 당신의 콘텐츠
 ├── content.example.json ← 템플릿 예시
 ├── SPEC.md              ← AI용 규격 문서
 ├── index.md             ← 홈페이지
